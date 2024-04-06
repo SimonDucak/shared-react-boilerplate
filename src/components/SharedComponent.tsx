@@ -8,7 +8,7 @@ export const SharedComponent = () => {
         <div onClick={() => setCount((prev) => prev + 1)}>
             <h4>Shared Component</h4>
 
-            <Button variant="contained">
+            <Button variant="contained" color="primary">
                 Count {count}
             </Button>
         </div>
